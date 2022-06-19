@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/19b3f703f6.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/public/styles/style.css" type="text/css" />
   </head>
   <body>
@@ -14,12 +18,29 @@
           리스트
         </ul>
         <div class="chatting-room-name">방 이름</div>
-        <button class="more">더보기</button>
+        <i class="fas fa-ellipsis-h"></i>
       </header>
       <main>
-        <div>2022/ 06/ 17</div>
-        <ul class="chat-list"></ul>
+        <div class="date">2022/ 06/ 17</div>
+        <ul class="chat-list">
+          <li class="my-chat">hi</li>
+          <li class="other-chat">hello</li>
+          <li class="my-chat">nice to meet you</li>
+          <li class="other-chat">nice to meet you, too</li>
+        </ul>
       </main>
+      <footer class="footer">
+        <div class="footer-left">
+          <i class="far fa-smile"></i>
+          <form>
+            <input type="text" placeholder="Send your message" />
+          </form>
+        </div>
+        <div class="footer-right">
+          <i class="fas fa-at"></i>
+          <i class="fas fa-paper-plane"></i>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
